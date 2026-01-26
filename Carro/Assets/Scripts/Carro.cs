@@ -32,7 +32,7 @@ public class Carro : MonoBehaviour
         {
             direcao = Direcao.Traz;
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
             if (direcao == Direcao.Frente)
             {
